@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/public/Screenshot 2023-09-18 224347.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitAtlas</title>
+    <style>
+      * {
+        font-family: "Space Grotesk", "sans-serif" !important;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Space Grotesk", "sans-serif" !important;
+        margin: 0;
+        background-color: rgb(18, 18, 18);
+        color: white;
+        user-select: none;
+        scroll-behavior: smooth;
+      }
+
+      html {
+        -webkit-tap-highlight-color: transparent;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        .react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+          display: none;
+        }
+        .react-horizontal-scrolling-menu--item {
+          padding: 20px 0px;
+        }
+      }
+      body::-webkit-scrollbar {
+        display: none;
+      }
+
+      .product-info::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

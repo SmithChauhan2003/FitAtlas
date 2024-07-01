@@ -1,0 +1,88 @@
+.addItem{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addItem form{
+    max-width: 90rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    background: #fff;
+    border: .1rem solid rgba(0,0,0,.2);
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.addItem form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.addItem form .inputBox .input{
+    width: 48%;
+}
+
+.addItem form .inputBox .input span{
+    display: block;
+    padding: .3rem 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.addItem form .inputBox .input input,
+.addItem form .inputBox .input textarea,
+.addItem form .inputBox .input select{
+    width: 100%;
+    background: #eee;
+    padding: .7rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    color: #192a56;
+    text-transform: none;
+    margin-bottom: .5rem;
+    border: none;
+    outline: none;
+}
+
+.addItem form .inputBox .input input:focus,
+.addItem form .inputBox .input textarea:focus{
+    border: .1rem solid rgb(76, 122, 187);
+}
+
+.addItem form .inputBox .input textarea{
+    /* height:0rem; */
+    resize: none;
+}
+
+.addItem form .addbtn{
+    margin-top: 0;
+}
+
+.addbtn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #fff;
+    background: rgb(38, 109, 209);
+    border-radius: .3rem;
+    cursor: pointer;
+    padding: .5rem 2rem;
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+}
+
+.addbtn:hover{
+    background: #192a56;
+}
+
+.back{
+    background: rgb(190, 63, 63);
+}
+
+.back:hover{
+    background: rgb(196, 32, 32);
+}
